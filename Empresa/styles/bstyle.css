@@ -1,0 +1,153 @@
+body{
+    background: -webkit-linear-gradient(top left, #709ac0, rgb(49, 102, 104));
+    background: -moz-linear-gradient(top left, #709ac0, rgb(49, 102, 104));
+    background: -o-linear-gradient(top left, #709ac0, rgb(49, 102, 104));
+    background: linear-gradient(top left, #709ac0, rgb(49, 102, 104));
+    margin: 0;
+}
+header{
+    display: flex;
+    height: 150px;
+    background: rgb(255, 255, 255);
+    border-bottom: 3px solid rgb(94, 147, 216);
+    justify-content: space-between;
+    align-items:center;
+    padding: 20px;
+}
+header .logo{
+    margin-right: auto;
+    margin-left: auto;
+}
+.nav-link1{
+    margin-top: 0 auto;
+    font-size: 15px;
+    font-family: Helvetica;
+    display: inline-block;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+.logo-img{
+    margin-left: 150px;
+}
+
+
+
+.form-register{
+    border-radius: 10%;
+    width: 450px;
+    height: 250px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 200px;
+    background: rgb(255, 255, 255);
+    border: 3px solid rgb(42,50,132);
+    justify-content: space-between;
+    align-items:center;
+}
+.form-register .bienvenida{
+    font-family: Helvetica;
+    font-weight: bold;
+    margin-right: auto;
+    margin-left: auto;
+}
+.form-register .boton{
+    margin-top: 10px;
+}
+.form-register .resultado1{
+    margin-top: 20px;
+    width: 385px;
+}
+.form-register .resultado2{
+    margin-top: 20px;
+    width: 385px;
+}
+.form-register .resultado3{
+    margin-top: 20px;
+    width: 385px;
+}
+.form-register .resultado4{
+    margin-top: 20px;
+    width: 385px;
+}
+footer{
+    height:70px;
+    background: rgb(255, 255, 255);
+    border-top: 3px solid rgb(42,50,132);
+    margin-top: 200px;
+  }
+
+  .nav-link3{
+    margin-left: 600px;
+
+  }
+
+  .foot {
+      font-family: Georgia, 'Times New Roman', Times, serif;
+  } 
+
+  .foot2{
+      margin-left: 650px;
+      font-size: small;
+  }
+
+  .foot3{
+    margin-left: 650px;
+    font-size: 10px;
+}
+
+.fotosoporte{
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-color: black;
+    margin-right: 20px;
+}
+
+.dropdown{
+    
+    
+    background-color:rgb(255,241,89) ;
+}
+
+.ingresar{
+    margin-top: 10px;
+    margin-bottom: -200px;
+}
+
+.pie{
+    background:#fafdff ;
+    color:rgb(0, 0, 0) ;
+    width: 100%;
+    left: 0%;
+    height: 250px;
+    position: absolute;
+    margin-bottom: 0;
+    margin-top: 900px;
+    border-top: 3px solid rgb(42,50,132);
+}
+.pie .text{
+    font-size: 16px;
+    margin-top: 45px;
+    position: absolute;
+    padding-left: 275px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pie .text2{
+    font-size: 16px;
+    margin-top: 45px;
+    position: absolute;
+    padding-left: 475px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.down{
+    position: absolute;
+    padding-left: 40%;
+    bottom:10px;
+    font-size: 12px;
+}
+.down a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}

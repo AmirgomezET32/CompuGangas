@@ -1,0 +1,305 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Jost', sans-serif;
+    background:white;
+}
+
+.cabeza{
+	position: absolute;
+	width: 100%;
+	height: 170px;
+	left:0px ;
+	top: 0px;
+	background: #ffffff;
+	font-family: Arial, Helvetica, sans-serif;
+	border-bottom: 3px solid rgb(42,50,132);
+	}
+	.cabeza a:hover{
+		color: rgb(160, 158, 158);
+		font-size: 18px;
+	}
+	.sesion{
+		margin-top: 50px;
+		position: absolute;
+		background-color:transparent;
+		color: rgb(0, 0, 0);
+		text-decoration: none;
+		margin-left: 85%;
+		font-size: 19px;
+		transition: .2s ease-in;
+	}
+	.sesion1{
+		margin-top: 50px;
+		position: absolute;
+		background-color:transparent;
+		color: rgb(0, 0, 0);
+		text-decoration: none;
+		margin-left: 93%; 
+		font-size: 19px;
+		transition: .2s ease-in;
+	}
+	.logo{
+		margin-top: -190px;
+	}
+	.opciones{
+		margin-top: 0;
+		margin-left:10%;
+		position: relative;
+		margin-top: 25px;
+		width: 170px;
+	  }
+	  .desplegar {
+		margin-left: 30%;
+		display: none;
+		position: absolute;
+		background-color: #233849;
+		min-width: 180px;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		z-index: 1;
+		border-bottom-left-radius: 12px;
+		border-bottom-right-radius: 12px;
+	}
+	  .desplegar a {
+		color: rgb(255, 255, 255);
+		padding: 12px 16px;
+		text-decoration: none;
+		display: block;
+	}
+	  .desplegar a:hover{
+		background: white;
+		color: rgb(0, 0, 0);
+		transform: scale(1, 1);
+		transition: all 0.4s ease ;
+		border-bottom-left-radius: 12px;
+		border-bottom-right-radius: 12px;
+	}
+	  .opciones:hover .desplegar{
+		display: block;
+	}
+	.miniboton{
+		width: 180px;
+		height: 50px;
+		margin-top: 40px;
+        margin-bottom: 0;
+		outline: none;
+		border: none;
+		border-radius: 5px;
+		font-size: 1em;
+		font-weight: bold;
+		justify-content: center;
+		display: block;
+		color: #2b455a;
+		cursor: pointer;
+		transition: .2s ease-in;
+		margin-left: 30%;
+	}
+	.miniboton:hover{
+		background: rgb(185, 185, 185);
+	}
+.main {
+    width: 350px;
+    height: 500px;
+    background: black;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 5px 20px 50px #000;
+}
+#chk {
+    display: none;
+}
+.signup {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+label {
+    color: #fff;
+    font-size: 2.3em;
+    justify-content: center;
+    display: flex;
+    margin: 60px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+    margin-top: 10px;
+}
+input {
+    width: 60%;
+    height: 25px;
+    background: #e0dede;
+    justify-content: center;
+    display: flex;
+    margin: 20px auto;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+button {
+    width: 60%;
+    height: 40px;
+    margin: 10px auto;
+    justify-content: center;
+    display: block;
+    color: #573b8a;
+    background: #ffffff;
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    transition: .2s ease-in;
+    cursor: pointer;
+}
+button:hover {
+    background: #29af00;
+}
+.login {
+    height: 460px;
+    background: #eee;
+    border-radius: 60% / 10%;
+    transform: translateY(-180px);
+    transition: .8s ease-in-out;
+}
+.login label {
+    color: #573b8a;
+    transform: scale(.6);
+}
+#chk:checked~.login {
+    transform: translateY(-500px);
+}
+#chk:checked~.login label {
+    transform: scale(1);
+}
+
+#chk:checked~.signup label {
+    transform: scale(.6);
+}
+
+.texto {
+    font-size: 15px;
+}
+
+.regis{
+
+    font-size: 20px;
+    padding-bottom: 30px;
+    background: rgb(255, 255, 255);
+}
+
+
+
+
+footer{
+    height:70px;
+    background: rgb(255, 255, 255);
+    border-top: 3px solid rgb(42,50,132);
+	top: 700px;
+}
+  .footer2{
+    margin-left: 200px;
+  }
+  .nav-link3{
+    margin-left: 600px;
+  }
+  .foot {
+      font-family: Georgia, 'Times New Roman', Times, serif;
+  } 
+  .foot2{
+      margin-left: 650px;
+      font-size: small;
+  }
+  .foot3{
+    margin-left: 650px;
+    font-size: 10px;
+}
+.fotosoporte{
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-color: black;
+    margin-right: 20px;
+}
+.dropdown{
+    background-color:rgb(255,241,89) ;
+}
+.txt{
+    color: white;
+    font-size: 20px;
+    min-width: 100%;
+    margin-left:25px ;
+}
+.dentro{
+    color: black;
+    font-size: 16px;
+    min-width: 90%;
+    padding: 10px;
+    margin-left:25px ;
+    }
+.error{
+    color: white;
+    margin-left:10% ;
+}
+.boton{
+    width: 180px;
+    height: 50px;
+    margin-top: 40px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: bold;
+    justify-content: center;
+    display: block;
+    margin-left: 30%;
+    color: #2b455a;
+    cursor: pointer;
+    transition: .2s ease-in;
+}
+.boton:hover {
+    background: rgb(185, 185, 185);
+    color: rgb(0, 0, 0);
+    transform: scale(1, 1);
+    transition: all 0.3s ease;
+}
+.pie{
+    background:#fafdff ;
+    color:rgb(0, 0, 0) ;
+    width: 100%;
+    left: 0%;
+    height: 250px;
+    position: absolute;
+    margin-bottom: 0;
+    margin-top: 100px;
+    border-top: 3px solid rgb(42,50,132);
+}
+.pie .text{
+    font-size: 16px;
+    margin-top: 45px;
+    position: absolute;
+    padding-left: 275px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pie .text2{
+    font-size: 16px;
+    margin-top: 45px;
+    position: absolute;
+    padding-left: 475px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.down{
+    position: absolute;
+    padding-left: 40%;
+    bottom:10px;
+    font-size: 12px;
+}
+.down a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
